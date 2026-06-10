@@ -59,7 +59,7 @@ TrueLineQA uses Groq's LLM API to generate answers from uploaded PDFs.
 
 ### 5. Open Terminal
 - Navigate to the TrueLineQA project folder.
-- Open Command Prompt or PowerShell: cd path\to\AuraDoc
+- Open Command Prompt or PowerShell: cd path\to\TruelineQA
 
 ### 6. Build and Run the application
 - Run: docker-compose up --build
