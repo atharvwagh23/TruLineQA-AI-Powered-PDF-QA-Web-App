@@ -2,7 +2,7 @@
 
 > Upload a PDF. Ask questions. Get instant AI-powered answers.
 
-AuraDoc is a Streamlit web app that lets you chat with your PDF documents. Powered by **Groq's LLaMA 3.1** model, it reads your document and answers questions based strictly on its content — no hallucinations, no guessing.
+TrueLineQA is a Streamlit web app that lets you chat with your PDF documents. Powered by **Groq's LLaMA 3.1** model, it reads your document and answers questions based strictly on its content — no hallucinations, no guessing.
 
 ---
 
@@ -40,7 +40,7 @@ AuraDoc is a Streamlit web app that lets you chat with your PDF documents. Power
 ---
 
 ### 1. Set up your Groq API key
-AuraDoc uses Groq's LLM API to generate answers from uploaded PDFs.
+TrueLineQA uses Groq's LLM API to generate answers from uploaded PDFs.
 
 - Create a Groq Account
 - Visit:(https://console.groq.com)
@@ -58,7 +58,7 @@ AuraDoc uses Groq's LLM API to generate answers from uploaded PDFs.
 - Wait until Docker starts successfully,You should see: Docker Engine Running
 
 ### 5. Open Terminal
-- Navigate to the AuraDoc project folder.
+- Navigate to the TrueLineQA project folder.
 - Open Command Prompt or PowerShell: cd path\to\AuraDoc
 
 ### 6. Build and Run the application
@@ -67,7 +67,7 @@ AuraDoc uses Groq's LLM API to generate answers from uploaded PDFs.
 
 1. Builds the Docker image
 2. Installs Python dependencies
-3. Starts the AuraDoc container
+3. Starts the TrueLineQA container
 4. Starts MongoDB container
 5. Connects both containers automatically
 
